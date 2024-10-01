@@ -45,9 +45,7 @@ try:
 except TypeError:
     print("Invalid data type") 
 
-price = 995
-if price > 500:
-  raise ValueError
+
 
 
     

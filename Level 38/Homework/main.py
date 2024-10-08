@@ -1,8 +1,7 @@
 #Task 1 Lambda Exercises
 
-tup = lambda tuplez: tuplez % 2 == 0
-tup = ("I'm", "Student", "Giorgi", "My Last Name Is:", "Narindoshvili")
-print(tup)
+listn = [(200, 3, 191), (0 , 1 ,5) ,(9 ,0 ,10), (7, 4 , 56)]
+print(sorted(listn, key=lambda i: i[1]))
 
 #2
 

@@ -47,6 +47,9 @@ h2{
     color: hsl(0, 0%, 100%);
     position: absolute;
     font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 250px;
     height: 35px;
@@ -60,6 +63,10 @@ h2{
     position: absolute;
     top: 312px;
     font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 250px;
     height: 35px;
     text-align: center;
@@ -73,6 +80,10 @@ h2{
     position: absolute;
     top: 355px;
     font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 250px;
     height: 35px;
     text-align: center;
@@ -86,6 +97,10 @@ h2{
     position: absolute;
     top: 397px;
     font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 250px;
     height: 35px;
     text-align: center;
@@ -99,6 +114,10 @@ h2{
     position: absolute;
     top: 465px;
     font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 250px;
     height: 35px;
     text-align: center;

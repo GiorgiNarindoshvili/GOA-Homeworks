@@ -14,8 +14,8 @@ body{
 }
 .parent{
     background-color: hsl(0, 0%, 100%);
-    width: 360px;
-    height: 470px;
+    width: 340px;
+    height: 490px;
     border-radius: 10px;
     border: 2px solid black;
     border-right: 9px solid black;

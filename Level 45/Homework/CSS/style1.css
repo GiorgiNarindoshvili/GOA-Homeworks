@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+}
+.recipe{
+    width: 325px;
+    height: 165px;
+    position: absolute;
+    left: 517px;
+    top: 20px;
+    border-radius: 10px;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 397px;
+    height: 98vh;
+    border-radius: 10px;
+}
+.h1{
+    position: absolute;
+    font-family: "Young Serif", sans-serif;
+    font-size: 21px;
+    font-weight: 1;
+    left: 517px;
+    width: 250px;
+    color: hsl(333, 49%, 14%);
+    top: 197px;
+}
+.p1{
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    font-size: 9px;
+    font-weight: 510;
+    color: hsl(30, 10%, 34%);
+    top: 238px;
+    left: 509px;
+}

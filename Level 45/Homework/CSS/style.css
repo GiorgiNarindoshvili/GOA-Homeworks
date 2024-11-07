@@ -114,6 +114,10 @@ h1:hover{
 .p33:hover{
     color:  hsl(178, 100%, 50%);
 }
+.equ:hover{
+    filter: none;
+    backdrop-filter:  hsl(178, 100%, 50%);
+}
 
 
 

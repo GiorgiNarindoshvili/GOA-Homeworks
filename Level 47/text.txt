@@ -1,0 +1,21 @@
+<div class="starss">
+            <p class="stars1">Rated 5 Stars in Reviews</p>
+            <p class="stars2"> Rated 5 Stars in Reviews</p>
+            <p class="stars3">Rated 5 Stars in Report Guru</p>
+            <p class="stars4">Rated 5 Stars in BestTech</p>
+        </div>
+        <div class="creator1">
+            <p class="name">Colton Smith </p>
+            <p class="verified1">Verified Buyer</p>
+            <p class="text1">"We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also received it in time. Excellent!"</p>
+        </div>
+        <div class="creator2">
+            <p class="name2">Irene Roberts</p>
+            <p class="verified2">Verified Buyer</p>
+            <p class="text2"> "Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </div>
+        <div class="creator3">
+            <p class="name3">Anne Wallace </p>
+            <p class="verified3">Verified Buyer</p>
+            <p class="text3">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+        </div>  

@@ -71,21 +71,122 @@ main{
     margin-left: 100px;
 }
 .lower{
-    display: flex;
-    justify-content: center;
-  
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 380px;
+    left: 170px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
 }
-.lowerleft{
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    max-width: 300px;
-    
-    
+.box1ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
 }
 .colton{
-    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
     border-radius: 100px;
-    width: 50px;
-    height: 50px;
+    top: 30px;
+    left: 30px;
+}
+.boxp1{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp1-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
+}
+.lowercenter{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box2ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.irene{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    top: 30px;
+    left: 30px;
+}
+.boxp2{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp2-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
+}
+.lowerright{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box3ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.anne{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    top: 30px;
+    left: 30px;
+}
+.boxp3{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp3-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
 }

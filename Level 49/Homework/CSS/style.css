@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Social{
+    position: absolute;
+    top: 40px;
+    background-color: hsl(256, 67%, 59%);
+    width: 440px;
+    height: 280px;
+    border-radius: 10px;
+}
+.scl{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 50px;
+    font-weight: 350;
+    line-height: 45px;
+    color: hsl(0, 0%, 100%);
+}    
+span{
+    color: hsl(39, 100%, 71%);
+}
+.AI{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    font-size: 53px;
+    font-weight: 350;
+    line-height: 45px;
+    color: hsl(0, 0%, 100%);
+}
+.stars{
+    position: absolute;
+    width: 150px;
+    top: 165px;
+    left: 140px;
+}
+.over{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    color: hsl(254, 88%, 90%);
+}

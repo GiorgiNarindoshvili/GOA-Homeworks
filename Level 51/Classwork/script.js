@@ -4,3 +4,8 @@
 
 //3.
 
+num1 = 17
+num2 = 67
+
+console.log(num1 + num2)
+

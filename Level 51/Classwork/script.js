@@ -4,8 +4,12 @@
 
 //3.
 
-num1 = 17
-num2 = 67
+//4 We have let, var and const keywords in javascript to make a variables
 
-console.log(num1 + num2)
+//5
+//let num = 5;
+//let num = 6;
+//This Code will output error because we can't define two variables with same name
+
+//CamelCase is called this method because of its humps, At One Place its Upper and after upper it starrting decreasing like lowercase.
 

@@ -10,13 +10,16 @@ console.log(num1 + num2)
 //2
 const form = document.getElementById("formm1")
 
+
 form.addEventListener('click', function (e){
     e.preventDefault();
     console.log(form.elements.name.value);
 })
 
+console.log(movieRating);
+let movieRating = 25;
 //3 best practices of JS
 //best practies of JS are: var, const or let, based on these keywords, you can declare variable.
 
 //4
-//name atribute is better than id because, name atribbute is used especially in form attributes because by name you can group elements logically than id and id is more convenient for styiling some attributes or scripting
+//One of the best practices are comments to describe, comments are helping people to understand productively about code, also best practice is indentation, based on the indentation, our code will look like more exceptional and will be good for read.

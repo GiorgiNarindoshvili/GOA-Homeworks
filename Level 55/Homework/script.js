@@ -8,16 +8,27 @@ num2 = Number(num2)
 console.log(num1 + num2)
 
 //2
-const form = document.getElementById("formm1")
+const form = document.getElementById('formm1');
 
+function formSubmit() {
+    const name = form.elements.name.value;
+    const email = form.elements.email.value;
+    const password = form.elements.password.value;
 
-form.addEventListener('click', function (e){
+    console.log("Name: " + name);
+    console.log("Email: " + email);
+    console.log("Password: " + password);
+
+    form.reset();
+}
+
+form.addEventListener('submit', function(e) {
     e.preventDefault();
-    console.log(form.elements.name.value);
+    formSubmit();
 })
 
-console.log(movieRating);
-let movieRating = 25;
+
+
 //3 best practices of JS
 //best practies of JS are: var, const or let, based on these keywords, you can declare variable.
 

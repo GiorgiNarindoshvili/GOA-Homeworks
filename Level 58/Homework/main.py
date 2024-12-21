@@ -1,7 +1,7 @@
 from character import Character
 
-hero = Character(name = "Hero", health = 100, damage = 5)
-enemy = Character(name = "Enemy", health = 100, damage = 3)
+hero = Character(name = "Hero", health = 100)
+enemy = Character(name = "Enemy", health = 100)
 
 while True:
     hero.attack(enemy)

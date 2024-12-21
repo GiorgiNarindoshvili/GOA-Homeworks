@@ -1,24 +1,40 @@
-const form = document.getElementById("myForm");
-const submit = document.getElementById("submit")
+const form = document.getElementById('myForm');
+const submit = document.getElementById('submit');
+
+submit.disabled = true;
 
 submit.addEventListener('click', function(e){
     e.preventDefault();
-    const name1 = form.elements.name.value;
-    const email = form.elements.email.value;
-    const password = form.elements.password.value;
-    const gender = form.elements.gender.value;
-    const country = form.elements.country.value;
-    const terms = form.elements.terms.checked;
 
-    if(terms) {
-        console.log(name1);
-        console.log(email);
-        console.log(password);
-        console.log(gender);
-        console.log(country);
-        console.log(terms);
+    const name = form.elements.name;
+    const email = form.elements.email;
+    const password = form.elements.password;
+
+    if (name.value == ""){
+        name.style.borderColor = "red";
     } else {
-        console.log("Registration Not Completed")
-        name1.style.border = "1px solid red"
+        name.style.borderColor = "black";
+    }
+
+    if (email.value == ""){
+        email.style.borderColor = "red";
+    } else {
+        email.style.borderColor = "black";
+    }
+
+    if (password.value == ""){
+        password.style.borderColor = "red";
+    } else {
+        password.style.borderColor = "black";
     }
 })
+
+form.elements.terms.addEventListener('click', function(){
+    if (form.elements.terms.checked){
+        submit.disabled = false; 
+     } else {
+         submit.disabled = true;
+     }
+})
+
+

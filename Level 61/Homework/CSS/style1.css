@@ -17,43 +17,93 @@ body{
 }
 main{
     background-color:  hsl(0, 0%, 100%);
-    width: 470px;
-    height: 440px;
+    width: 490px;
+    height: 550px;
     border-radius: 10px;
     box-shadow: 7px 17px 2px rgb(238, 238, 238);
 }
 h1{
     position: absolute;
-    top: 135px;
-    left: 540px;
+    top: 105px;
+    left: 520px;
     color: hsl(292, 42%, 14%);
     font-size: 38px;
     font-weight: 700;
 }
 .star{
     position: absolute;
-    top: 135px;
-    left: 480px;
+    top: 105px;
+    left: 470px;
     width: 40px;
 }
 .title{
     position: absolute;
-    top: 225px;
+    top: 205px;
     font-size: 13px;
-    left: 485px;
+    left: 470px;
     font-weight: 700;
     color: hsl(292, 42%, 14%);
 }
 .minus{
     position: absolute;
-    top: 215px;
+    top: 195px;
     left: 845px;
     width: 30px;
 }
 .txt{
     position: absolute;
-    top: 275px;
-    font-size: 12px;
-    left: 485px;
+    top: 255px;
+    font-size: 13px;
+    left: 470px;
     color: hsl(292, 16%, 49%);
+    line-height: 18px;
+}
+.one{
+    position: absolute;
+    top: 380px;
+    left: 470px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus1{
+    position: absolute;
+    top: 375px;
+    left: 845px;
+    width: 29px;
+}
+
+.two{
+    position: absolute;
+    top: 440px;
+    left: 465px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus2{
+    position: absolute;
+    top: 435px;
+    left: 845px;
+    width: 29px;
+}
+.three{
+    position: absolute;
+    top: 500px;
+    left: 465px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus2{
+    position: absolute;
+    top: 435px;
+    left: 845px;
+    width: 29px;
+}
+.plus3{
+    position: absolute;
+    top: 495px;
+    left: 845px;
+    width: 29px;
 }

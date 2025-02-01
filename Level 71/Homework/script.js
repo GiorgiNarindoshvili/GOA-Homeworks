@@ -2,33 +2,32 @@ const child = document.getElementById("child-container");
 
 let left = 0;
 let y = 0;
-let direction = "top"
+let direction = "bottom";
 
-const moveACW = setInterval(function(){
-    if(direction == "top"){
-        y++;
-        if(y == 230){
-            direction = "right"
-        }
-    } else if(direction == "right"){
+const moveRight = setInterval(function(){
+    if(direction == "right"){
         left++;
         if(left == 230){
-            direction = "bottom";
+            direction = "top";
         }
     } else if(direction == "bottom"){
-        y--;
+        y++;
         if(y == 230){
-            direction = "top"
+            direction = "right";
         }
-    } else{
-        y--;
+    } else if(direction == "left"){
+        left--;
         if(y == 0 && left == 0){
-            clearInterval(moveACW);
+            clearInterval(moveRight);
+        }
+    } else if (direction == "top"){
+        y--;
+        if(y == 0){
+            direction = "left";
         }
     }
 
     child.style.left = left + 'px';
     child.style.top = y + 'px';
-}, 10);
-
+}, 5);
 

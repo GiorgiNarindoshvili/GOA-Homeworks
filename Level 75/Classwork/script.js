@@ -6,7 +6,7 @@ form.addEventListener('submit', function(e){
     
 
     const name = form.elements.name.name;
-    const email = form.elements.name.email;
+    const email = form.elements.email.email;
     const password = form.elements.name.pass;
 
     console.log(name);

@@ -1,4 +1,3 @@
-
 const small = document.getElementById('small');
 
 let x = 0;

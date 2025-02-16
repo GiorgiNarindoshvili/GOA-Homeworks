@@ -46,7 +46,7 @@ console.log(b)
 let nm = false && false
 console.log(nm)
 
-//4  && Operators are working like in python, They have same results as python, they could be worked on our es6 too like: let, var, const. ternary is like a if else function but in short version of js, it also sould be worked on const, let and var, and according that we can compare our stored variable in ternary to another variable and find some statements in log.
+//4  && Operators are working like in python, if there's one false in statements &&  operator would return false always, they could be worked on our es6 too like: let, var, const. ternary is like a if else function but in short version of js, it also sould be worked on const, let and var, and according that we can compare our stored variable in ternary to another variable and find some statements in log.
 
 //5
 //let example
